@@ -10,6 +10,7 @@ namespace SharedTrip
 
     public class Startup : IMvcApplication
     {
+        //Testing change for Git
         public void Configure(IList<Route> routeTable)
         {
             using (var db = new ApplicationDbContext())
